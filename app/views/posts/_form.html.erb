@@ -11,6 +11,9 @@
     </div>
   <% end %>
 
+  <%= form.label :body, "Write new post below:" %><br>
+  <%= form.text_area :body, placeholder: "texttt", autofocus: true %><br>
+
   <div class="actions">
     <%= form.submit %>
   </div>
