@@ -3,7 +3,7 @@ class PostsController < ApplicationController
   before_action :authenticate_user!, except: [:index]
   # GET /posts or /posts.json
   def index
-    @posts = Post.all.order("created_at DESC").
+    @posts = Post.all.order("created_at DESC")
     @post = Post.new
   end
 
@@ -65,6 +65,6 @@ class PostsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def post_params
-      params.fetch(:post, {})
+      params.require(:post).permit(:body)
     end
 end
