@@ -1,24 +1,54 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet) ![](https://img.shields.io/badge/RoR-red)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# Authentication
 
-* Ruby version
+In this project we implemented authentication systems so users can only access areas of a site they are authorized to.
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby
+- Rails 6.1.1
+- Devise
+- Git & Github
 
-* Database creation
+### Install
 
-* Database initialization
+Install Ruby and Rails on your local machine.
 
-* How to run the test suite
+### Setup
 
-* Services (job queues, cache servers, search engines, etc.)
+Open your terminal and go to the directory where you want to clone the repo.
 
-* Deployment instructions
+Clone the repository to your local machine. Type `$ git clone https://github.com/jpdf00/members-only`.
 
-* ...
+Go to the members-only directory. Type `$ cd members-only`
+
+Install the necessary gems to run the project. Type `$ bundle install`
+
+Also, please run this command `rails db:migrate` to run all the migration for the database and have all tables updated and read to use
+
+Now your environment is ready to run the project. Type `rails s`, open your browser and paste `localhost:3000`.
+
+## Authors
+
+👤 **João Paulo Dias**
+
+- GitHub: [@vichuge](https://github.com/vichuge)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/victor-pacheco-7946aab2/)
+
+👩🏼‍💻 **Ana Paula Hübner**
+
+- GitHub: [@anapdh](https://github.com/anapdh)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/anapdh)
+- Twitter: [@dev_anahub](https://twitter.com/dev_anahub)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/jpdf00/members-only/issues).
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
