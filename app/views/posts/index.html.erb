@@ -8,7 +8,7 @@
     <li>
       <% if user_signed_in? %>
         <strong><%= post.user.name %></strong><br>
-        <small><%= post.user.username %></small><br>
+        <small>@<%=  post.user.username %></small><br>
       <% else %>
         <strong>Anonymous</strong><br>
       <% end %>
