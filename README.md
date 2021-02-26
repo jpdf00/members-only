@@ -34,8 +34,9 @@ Now your environment is ready to run the project. Type `rails s`, open your brow
 
 👤 **João Paulo Dias**
 
-- GitHub: [@vichuge](https://github.com/vichuge)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/victor-pacheco-7946aab2/)
+- GitHub: [@jpdf00](https://github.com/jpdf00)
+- Twitter: [@jpdf00](https://twitter.com/jpdf00)
+- LinkedIn: [João Paulo Dias França](https://linkedin.com/linkedinhandle)
 
 👩🏼‍💻 **Ana Paula Hübner**
 
