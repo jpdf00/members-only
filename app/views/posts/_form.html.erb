@@ -1,5 +1,5 @@
 <%= form_with(model: post) do |form| %>
-  <%= error_block %>
+  <%= show_validation_errors(@post) %>
 
   <%= form.label :body, "Write new post below:" %><br>
   <%= form.text_area :body, placeholder: "texttt", autofocus: true %><br>
