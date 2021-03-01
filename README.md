@@ -38,7 +38,7 @@ Go to the members-only directory. Type `$ cd members-only`
 
 Install the necessary gems to run the project. Type `$ bundle install`
 
-Also, please run this command `rails db:migrate` to run all the migration for the database and have all tables updated and read to use
+Also, please run these commands `rails db:create` and `rails db:migrate` to run all the migration for the database and have all tables updated and read to use
 
 Now your environment is ready to run the project. Type `rails s`, open your browser and paste `localhost:3000`.
 
