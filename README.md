@@ -5,16 +5,28 @@
 
 In this project we implemented authentication systems so users can only access areas of a site they are authorized to.
 
+## Pre-requisites
+
+- Ruby
+- Rails 6.1.1
+- SQLite3
+- Yarn
+- Devise
+- Puma
+
 ## Built With
 
 - Ruby
 - Rails 6.1.1
+- SQLite3
+- Yarn
 - Devise
+- Puma
 - Git & Github
 
 ### Install
 
-Install Ruby and Rails on your local machine.
+Install all the Pre-requisites on your local machine.
 
 ### Setup
 

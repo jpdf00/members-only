@@ -1,18 +1,7 @@
-<p id="notice"><%= notice %></p>
 <br>
 <h1>Posts</h1>
 
 <br>
 <ul>
-  <% @posts.each do |post| %>
-    <li>
-      <% if user_signed_in? %>
-        <strong><%= post.user.name %></strong><br>
-        <small>@<%=  post.user.username %></small><br>
-      <% else %>
-        <strong>Anonymous</strong><br>
-      <% end %>
-      <p><%= post.body %></p>
-    </li><br>
-  <% end %>
+  <%= show_post_list %>
 </ul>

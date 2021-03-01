@@ -12,32 +12,15 @@
 
   <body>
     <div>
-      <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>
+      <p id="notice"><%= notice %></p>
+      <p id="alert"><%= alert %></p>
     </div>
 
     <%= link_to root_path do %>
       <h1>Members Only</h1><br>
     <% end %>
 
-    <% if user_signed_in? %>
-      <p>
-        <%= link_to current_user.name, edit_user_registration_path, class: "button is-info" %>
-      </p>
-      <p>
-        <%= link_to 'Log Out', destroy_user_session_path, method: :delete, class:"button is-info" %>
-      </p>
-      <p>
-        <%= link_to 'New Post', new_post_path, class: "button is-info is-inverted" %>
-      </p>
-    <% else %>
-      <p>
-        <%= link_to 'Log In', new_user_session_path, class: "button is-info" %>
-      </p>
-      <p>
-        <%= link_to 'Sign Up', new_user_registration_path, class: "button is-info" %>
-      </p>
-    <% end %>
+    <%= index_links %>
 
     <%= yield %>
   </body>
