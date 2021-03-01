@@ -11,6 +11,17 @@
   </head>
 
   <body>
+    <div>
+      <p id="notice"><%= notice %></p>
+      <p id="alert"><%= alert %></p>
+    </div>
+
+    <%= link_to root_path do %>
+      <h1>Members Only</h1><br>
+    <% end %>
+
+    <%= index_links %>
+
     <%= yield %>
   </body>
 </html>

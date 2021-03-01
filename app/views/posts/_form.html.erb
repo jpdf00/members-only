@@ -1,0 +1,10 @@
+<%= form_with(model: post) do |form| %>
+  <%= show_validation_errors(@post) %>
+
+  <%= form.label :body, "Write new post below:" %><br>
+  <%= form.text_area :body, placeholder: "texttt", autofocus: true %><br>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
